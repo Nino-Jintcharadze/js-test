@@ -7,9 +7,9 @@ for (let i=1; i < cars.length; i++) {
 
 // Second
 let names = ['Nana', 'Yasu', 'Ren', 'Takumi', 'Reira'];
-for (let i=0; i < names.length; i++) {
-    if(names[i].length > 3) {
-        console.log(names[i]);
+for (let item of names) {
+    if(item.length > 3) {
+        console.log(item);
     }
 }
 
@@ -39,8 +39,8 @@ console.log(person.eyecolor);
 
 // Sixth
 let my_array = [19, 'july', 2021];
-for (let i=0; i < my_array.length; i++) {
-    console.log(my_array[i]);
+for (let item of my_array) {
+    console.log(item);
 }
 
 // Seventh
